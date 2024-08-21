@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashrafs Doughnuts Pty Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ashrafs Doughnuts Pty Ltd</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Ashrafs Doughnuts</h2>
+        <p>Delicious doughnuts and savouries delivered to your door!</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <h3>Classic Doughnut</h3>
+            <p>Price: R10</p>
+        </div>
+        <div class="product">
+            <h3>Chocolate Doughnut</h3>
+            <p>Price: R12</p>
+        </div>
+        <div class="product">
+            <h3>Savoury Pie</h3>
+            <p>Price: R15</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Ashrafs Doughnuts Pty Ltd is dedicated to providing the best doughnuts and savouries in town. Our products are made with love and delivered fresh to your door.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@ashrafsdoughnuts.co.za</p>
+        <p>Phone: +27 21 123 4567</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ashrafs Doughnuts Pty Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+AI-generated code. Review and use carefully. More info on FAQ.
+CSS (styles.css)
+CSS
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
